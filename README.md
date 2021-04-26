@@ -12,4 +12,8 @@ rsatool - https://github.com/ius/rsatool
 
 HackTricks - https://github.com/carlospolop/hacktricks
 
+py-string-assembler - https://github.com/s-3ntinel/py-string-assembler
+
+
+
 And many more...... List will grow
