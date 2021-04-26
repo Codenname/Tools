@@ -1,0 +1,30 @@
+# Set your remote hosts file
+set -g lhost "127.0.0.1"
+# Set your command prefix
+set -g prefix c-k
+# Set the default private key to use for privilege escalation
+set -g privkey "data/pwncat" 
+# Set the pwncat backdoor user and password
+set -g backdoor_user "pwncat"
+set -g backdoor_pass "pwncat"
+set -g db "sqlite:///pwncat.sqlite"
+
+set -g on_load {
+	# Run a command upon a stable connection
+	# privesc -l
+}
+
+# Examples of command bindings
+bind s "sync"
+bind c "set state command"
+
+# Create aliases for commands
+alias up upload
+alias down download
+
+# Shortcuts allow single-character prefix which indicate the entire command
+# string be passed as the arguments to a specific command. For example:
+# "!ls" run "local ls" given the below directives
+shortcut ! local
+shortcut @ run
+
