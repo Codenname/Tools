@@ -1,10 +1,11 @@
 #Tools that need a repo added.
 
-StegBrute
-Steg tools
-LinPeas/WinPeas
+StegBrute\n
 
+Steg tools\n
 
+LinPeas/WinPeas\n
 
 For debugging might want to try to use `strace` and `ltrace`
+
 And many more...... List will grow
