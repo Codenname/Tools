@@ -22,5 +22,10 @@ Google Reverse Image Search
 
 Volatility - https://github.com/volatilityfoundation/volatility or https://github.com/volatilityfoundation/volatility3
 
+PowerSploit - https://github.com/Exploit-install/PowerSploit
+
+Empire - https://github.com/Exploit-install/Empire
+
+
 
 And many more...... List will grow
